@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:600i|Fira+Sans');
+
+/*LAYOUT*/
+
+html {
+	font-size: 16px;
+	height: 100%;
+}
+
+
+
+/*The scroll-behavior smooth within the body is used to make the site flow better and is particularily noticeable on the contact form page. It is subtle but useful. */
+
+body {
+	scroll-behavior: smooth;
+	font-family: 'Fira Sans', sans-serif;
+	height: 100%;
+}
+
+footer {
+	text-align: center;
+}
+
+.navbar {
+	background-color: black;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+}
+
+
+/*MAIN IMAGES ON EACH PAGE INCLUDING PARALLAX AND OVERLAY" */
+
+/* The main images change depending on the device, mobiles display vertical images, tablet and desktop display horizontal images, I did this using media queries at the bottom and the parallax below */
+
+.parallax {
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#parallax-footer {
+	background-image: url("https://images.pexels.com/photos/556667/pexels-photo-556667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+#parallax-index {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/999515/pexels-photo-999515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+#parallax-gallery {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://images.pexels.com/photos/2218558/pexels-photo-2218558.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+#parallax-prices {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/2109062/pexels-photo-2109062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+#parallax-contact {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/1253370/pexels-photo-1253370.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+.img-overlay {
+	position: relative;
+	padding-left: 30px;
+	padding-right: 30px;
+	top: 50%;
+	color: white;
+	font-size: 2rem;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+
+/* CROSS PAGE FEATURES */
+
+/*HEADER*/
+
+.navbar {
+	background-color: black;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+}
+
+.logo {
+	height: 40px;
+}
+
+/*
+GENERATED CODE FOR THIS BUTTON AT https://charliepark.org/bootstrap_buttons/
+This tool was very useful as the BVoostrap colors did not match my theme or the color scheme my client wanted, it allows you to make the button gold, you simply select the shade you want on their website and it will generate the code for you
+*/
+
+.btn-custom {
+	background-color: hsl(54, 38%, 47%) !important;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a59c4a", endColorstr="#a59c4a");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#a59c4a), to(#a59c4a));
+	background-image: -moz-linear-gradient(top, #a59c4a, #a59c4a);
+	background-image: -ms-linear-gradient(top, #a59c4a, #a59c4a);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a59c4a), color-stop(100%, #a59c4a));
+	background-image: -webkit-linear-gradient(top, #a59c4a, #a59c4a);
+	background-image: -o-linear-gradient(top, #a59c4a, #a59c4a);
+	background-image: linear-gradient(#a59c4a, #a59c4a);
+	border-color: #a59c4a #a59c4a hsl(54, 38%, 47%);
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+	-webkit-font-smoothing: antialiased;
+}
+
+/*BODY*/
+
+.info-text-box {
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+	border: 2px solid #b9b080;
+	font-family: 'Fira Sans' serif;
+}
+
+.text-banner {
+	background-color: #FCE8EC;
+	padding: 40px;
+}
+
+.testimonial-text {
+	color: #b9b080;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #2d313c;
+}
+
+
+.set-of-images {
+	background-color: #2d313c;
+	padding-bottom: 30px;
+}
+
+/*Footer*/
+
+#social-heading {
+	margin-top: 1.5rem;
+}
+
+.footer-social {
+	font-size: 3rem;
+	padding: 15px;
+	list-style: none;
+	color: #b9b080;
+}
+
+.footer-link {
+	color: black;
+	padding: 5px;
+}
+
+.rory-credit {
+	font-style: italic;
+}
+
+.phone-number {
+	font-size: 2rem;
+	text-align: center;
+	color: #b9b080;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+}
+
+.phone-number:hover {
+	text-decoration: none;
+	color: #b9b080;
+}
+
+/* Text classes */
+
+.gold-text {
+	font-family: 'Cormorant Garamond', serif;
+	color: #b9b080;
+}
+
+.headings {
+	font-size: 2rem;
+	font-weight: 600i;
+	text-align: center;
+}
+
+.heading-subtext {
+	font-size: 1.25rem;
+	font-weight: 500;
+	text-align: center;
+}
+
+/* INDEX FEATURES */
+
+.index-images {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+	margin-top: 30px;
+	border: 2px solid #b9b080;
+}
+
+.index-images {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+	margin-top: 30px;
+	border: 2px solid #b9b080;
+}
+
+.fa-phone {
+	font-size: 2rem;
+	color: #b9b080;
+	display: block;
+}
+
+/* GALLERY FEATURES*/
+
+.gallery-images {
+	margin: auto;
+	margin-top: 30px;
+	border: 2px solid #b9b080;
+}
+
+/* PRICES FEATURES */
+
+#prices-info-section {
+	background-color: #FCE8EC;
+}
+
+.prices-sub-text {
+	font-family: 'Fira Sans', sans-serif;
+	text-align: center;
+}
+
+#artist-text-prices {
+	color: #2d313c;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	text-align: center;
+	padding: 50px;
+	background-color: white;
+}
+
+
+
+/*CONTACT/REQUEST QUOTE FEATURES*/
+
+#contact-text-box {
+	color: #b9b080;
+}
+
+#request-quote-form {
+	width: 60vw
+}
+
+
+#request-quote-form {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+/* MEDIA QUERIES */
+
+/* The use of the media queries with the paralx is so that on desktops I can change the main images to horizontal images which look better on desktop, the paralax images are portrait in mobile and then completely change when on tablet or desktop,
+I feel this is very visually appealing and adds something extra to the website. */
+
+@media (min-width: 601px) {
+	#parallax-index {
+		background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://images.pexels.com/photos/1308578/pexels-photo-1308578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	}
+	#parallax-gallery {
+		background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://images.pexels.com/photos/2124722/pexels-photo-2124722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	}
+	#parallax-prices {
+		background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://images.pexels.com/photos/1185617/pexels-photo-1185617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	}
+	#parallax-contact {
+		background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	}
+	#parallax-footer {
+		background-image: url("https://www.cateringsensacions.com/wp-content/uploads/2017/12/VILLA-CATALINA-Niti-Chevy-Indian-wedding-5-2.jpg");
+	}
+}
+
+/* I was advised by one of my colleagues that on wider screens the social media icons where too far apart so I used this media queiry to beign them closer together, I believe this was great advice and the site looks better as a result*/
+
+@media(min-width: 1200px) {
+	.social-row {
+		margin: 0px 300px 0px 300px;
+
+	}
+}
+
+/* This is used to turn the paralax on when using non mobile devices, after doing research I realised that Safari does not support paralax and it does not work great on mobile in general, so I switch it on with this media query on larger screens*/
+
+@media only screen and (max-device-width: 1366px) {
+	.parallax {
+		background-attachment: scroll;
+	}
+}
