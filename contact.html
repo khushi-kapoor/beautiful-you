@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Beautiful You</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+        <a class="navbar-brand" href="index.html" title="Go to home">
+          <img class="logo" src="assets/images/kiss.png" alt="Logo Lips" />
+        </a>
+        <a class="navbar-brand" href="index.html" title="Go to home">
+          <span class="gold-text headings">Beautiful You</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" title="Go to home"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html" title="Go to gallery"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="prices.html" title="Go to prices"
+                >Prices</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" title="Go to contact"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a
+                class="btn btn-custom text-uppercase ml-md-3"
+                href="contact.html"
+                title="Go to contact"
+                >Request Quote</a
+              >
+            </li>
+            <li class="nav-item dropdown"></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="parallax" id="parallax-contact">
+        <div class="img-overlay">
+          Lets talk about your special day!<br /><i
+            class="fas fa-angle-double-down"
+          ></i>
+        </div>
+      </section>
+
+      <section class="text-banner">
+        <h1 class="gold-text headings">
+          Request a quote using the form below,<br />or call me anytime
+          <a
+            href="tel:8290915999"
+            class="phone-number"
+            id="phone-number-prices"
+            title="Call phone number"
+            >8290915999</a
+          >
+        </h1>
+      </section>
+
+      <!--The Bootstrap form componenent below can be easily replicated by using their documentation and then adding your own styles. The use of placeholders allows you to see what to put in the boxes, and the use of required on each part means the user-->
+      <!--has to put something in to complete the form. -->
+
+      <section id="prices-container" class="container-fluid">
+        <div class="row justify-content-center text-banner">
+          <div class="info-text-box" id="contact-text-box">
+            <form id="request-quote-form">
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Your email address"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1"
+                  >What are you looking for?</label
+                >
+                <select
+                  class="form-control"
+                  id="exampleFormControlSelect1"
+                  required
+                >
+                  <option value="">Choose</option>
+                  <option>Bridal Hair and Makeup</option>
+                  <option>Bridal Hair</option>
+                  <option>Bridal Makeup</option>
+                  <option>Prom/Party</option>
+                  <option>Custom Request</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Enquiry</label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="5"
+                  placeholder="Please provide some information on what you are looking for..."
+                  required
+                ></textarea>
+              </div>
+              <div class="button">
+                <button class="btn btn-custom">Request Quote</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row justify-content-center" id="testimonial">
+          <div class="col-sm-12 testimonial-text">
+            <h3>
+              I look forward to making your special day even more special...
+            </h3>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container-fluid">
+      <div class="row justify-content-around social-row">
+        <div class="col-sm-12 gold-text headings">
+          <h2 id="social-heading">Social</h2>
+        </div>
+        <div class="col-sm-12 col-md-2">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/_bea.uti.ful.you_/?hl=en"
+            title="Go to Instragram"
+            rel="noopener"
+          >
+            <i class="fab fa-instagram footer-social"></i>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-2">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/nidhi.kapoor.14811"
+            title="Go to Facebook"
+            rel="noopener"
+          >
+            <i class="fab fa-facebook-f footer-social"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="row" id="bottom-footer">
+        <div class="col-sm-12">
+          <div class="footer-link">
+            <a
+              target="_blank"
+              href="https://www.cleverbox.co.uk/example-privacy-policy/"
+              class="footer-link"
+              title="Go to Privacy Policy"
+              rel="noopener"
+              >Privacy Policy</a
+            >
+          </div>
+
+          <div class="footer-link">
+            Icons made by
+            <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from
+            <a href="https://www.flaticon.com/" title="Flaticon"
+              >www.flaticon.com</a
+            >
+            is licensed by
+            <a
+              href="http://creativecommons.org/licenses/by/3.0/"
+              title="Creative Commons BY 3.0"
+              target="_blank"
+              rel="noopener"
+              >CC 3.0 BY</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--These scripts are used on each page to make the boostrap elements work properly. Without them you may run into errors.-->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
